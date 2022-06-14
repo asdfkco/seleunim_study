@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome('./chromedriver.exe')
+driver = webdriver.Chrome('chromedriver.exe')
 #암묵적으로 웹 자원 로드를 위해 3초까지 기다려 준다.
 time.sleep(3)
 

@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-driver = webdriver.Chrome('./chromedriver.exe')
+driver = webdriver.Chrome('chromedriver.exe')
 
 driver.get("https://youtube.com")
 
