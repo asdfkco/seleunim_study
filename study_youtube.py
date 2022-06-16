@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 import openpyxl
 
-driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome('C:\chromedriver.exe')
 
 wb = openpyxl.Workbook()
 ws = wb.active
