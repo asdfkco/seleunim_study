@@ -36,5 +36,5 @@ def title():
 if __name__ == '__main__':
     search()
     title()
-    wb.save("youtube.xlsx")
+    wb.save(f"youtube_{search_word}.xlsx")
     print("코드끝")
